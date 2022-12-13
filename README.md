@@ -1,10 +1,8 @@
 # Deep Duo
 ### _Curating audio descriptors as a form of sound composition_
-
 Code source d'une installation sonore qui met en scène des réseaux de neurones artificiels contrôlant des synthétiseurs modulaires.
 
 # Note de programme
-
 _Deep Duo_ est une installation sonore auto-générative et interactive qui tente de rendre sensible les comportements d’algorithme d’apprentissage machine. 
 
 Deux instances d’un même système sont mises en boucle. Chaque système tente de reproduire les sonorités produites par l’autre dans un jeu de miroir musical. Le spectateur est invité à influencer le comportement de l’installation par le biais d’interventions sonores captées par un microphone dont le signal est inséré dans la boucle de l’installation.
