@@ -1,0 +1,11 @@
+{
+	"active_descriptors" : [ "TotalEnergy", "Loudness", "PerceptualOddToEvenRatio", "PerceptualSpectralKurtosis" ],
+	"batch_size" : 2500,
+	"epoch" : 2500,
+	"learning_rate" : 0.01,
+	"units" : 4,
+	"activation" : "tanh",
+	"optimizer" : "tf.train.adam",
+	"loss" : "meanSquaredError",
+	"metrics" : 5
+}

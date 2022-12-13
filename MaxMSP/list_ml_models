@@ -1,0 +1,5 @@
+1, 0 MULREG;
+2, 0 KNN;
+3, 0 ANN;
+4 ,0 GMM;
+5, 0 SVM;

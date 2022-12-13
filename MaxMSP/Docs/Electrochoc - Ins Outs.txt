@@ -1,0 +1,18 @@
+Inputs:
+
+1- motu analog 3-4 1
+2- es-8 1
+3- motu mic 1-2 1
+
+Outputs
+
+1- motu ADAT 1
+2- motu ADAT 2
+3- motu ADAT 3
+4- motu ADAT 4
+5- es-8 ADAT 1
+6- es-8 ADAT 2
+7- es-8 ADAT 3
+8- es-8 ADAT 4
+9- motu main out 1-2 1
+10- motu main out 1-2 2 

@@ -1,0 +1,11 @@
+{
+	"active_descriptors" : [ "TotalEnergy", "SpectralCentroid", "SpectralSpread", "SpectralSkewness", "Loudness", "PerceptualTristimulus0", "PerceptualTristimulus1", "PerceptualTristimulus2", "PerceptualOddToEvenRatio", "Sharpness", "Spread", "SpectralFlatness0", "SpectralFlatness1", "SpectralFlatness2", "SpectralFlatness3", "SpectralCrest0", "SpectralCrest1", "SpectralCrest2", "SpectralCrest3", "SpectralSlope", "PerceptualSpectralDeviation", "PerceptualSpectralCentroid", "Energy" ],
+	"batch_size" : 3500,
+	"epoch" : 2500,
+	"learning_rate" : 0.005,
+	"units" : [ 15, 10, 7 ],
+	"activation" : [ "tanh", "tanh", "linear" ],
+	"optimizer" : "tf.train.adamax",
+	"metrics" : 5,
+	"loss" : "logcosh"
+}

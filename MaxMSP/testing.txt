@@ -1,0 +1,39 @@
+Audio Descriptors
+
+- Loudness
+
+MulReg Parameters
+
+- Training rate:0.05
+
+ANN Parameters
+
+- Training rate:0.01
+- Num hidden:	32
+- Min epoch:	1000
+- Max epoch:	10000
+
+Comments: Controle subtil du volume
+
+
+Audio Descriptors
+
+- Yin Frequency
+- Yin Energy
+- Yin Periodicity
+- PerceptualSpectralKurtosis
+- PerceptualSpectralRolloff
+- PerceptualSpectralVariation
+
+MulReg Parameters
+
+- Training rate:0.05
+
+ANN Parameters
+
+- Training rate:0.01
+- Num hidden:	8
+- Min epoch:	1000
+- Max epoch:	10000
+
+Comments: Essayer avec 9 à 15 hidden

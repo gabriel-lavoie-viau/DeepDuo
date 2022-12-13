@@ -1,0 +1,11 @@
+{
+	"active_descriptors" : [ "TotalEnergy", "SpectralCentroid", "SpectralSpread", "SpectralSkewness", "Chroma0", "Chroma1", "Chroma2", "Chroma3", "Chroma4", "Chroma5", "Chroma6", "Chroma7", "Chroma8", "Chroma9", "Chroma10", "Chroma11", "Loudness", "RelativeSpecificLoudness0", "RelativeSpecificLoudness1", "RelativeSpecificLoudness2", "RelativeSpecificLoudness3", "RelativeSpecificLoudness4", "RelativeSpecificLoudness5", "RelativeSpecificLoudness6", "RelativeSpecificLoudness7", "RelativeSpecificLoudness8", "RelativeSpecificLoudness9", "RelativeSpecificLoudness10", "RelativeSpecificLoudness11", "RelativeSpecificLoudness12", "RelativeSpecificLoudness13", "RelativeSpecificLoudness14", "RelativeSpecificLoudness15", "RelativeSpecificLoudness16", "RelativeSpecificLoudness17", "RelativeSpecificLoudness18", "RelativeSpecificLoudness19", "RelativeSpecificLoudness20", "RelativeSpecificLoudness21", "RelativeSpecificLoudness22", "RelativeSpecificLoudness23", "PerceptualTristimulus0", "PerceptualTristimulus1", "PerceptualTristimulus2", "PerceptualOddToEvenRatio", "Sharpness", "Spread", "SpectralFlatness0", "SpectralFlatness1", "SpectralFlatness2", "SpectralFlatness3", "SpectralCrest0", "SpectralCrest1", "SpectralCrest2", "SpectralCrest3", "SpectralSlope", "PerceptualSpectralDeviation", "PerceptualSpectralCentroid", "Energy" ],
+	"batch_size" : 500,
+	"epoch" : 1000,
+	"learning_rate" : 0.01,
+	"units" : [ 18, 12, 6 ],
+	"activation" : [ "tanh", "tanh", "linear" ],
+	"optimizer" : "tf.train.adamax",
+	"metrics" : 5,
+	"loss" : "logcosh"
+}

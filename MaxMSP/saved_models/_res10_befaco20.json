@@ -1,0 +1,10 @@
+{
+	"active_descriptors" : [ "TotalEnergy", "Chroma0", "Chroma1", "Chroma2", "Chroma3", "Chroma4", "Chroma5", "Chroma6", "Chroma7", "Chroma8", "Chroma9", "Chroma10", "Chroma11", "Loudness", "PerceptualOddToEvenRatio", "Sharpness", "Frequency" ],
+	"learning_rate" : 0.001,
+	"batch_size" : 1000,
+	"epoch" : 3500,
+	"units" : [ 12, 8, 4 ],
+	"activation" : [ "tanh", "tanh", "linear" ],
+	"optimizer" : "tf.train.adam",
+	"loss" : "meanSquaredError"
+}

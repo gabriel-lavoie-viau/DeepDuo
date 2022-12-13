@@ -1,0 +1,11 @@
+{
+	"batch_size" : 4000,
+	"epoch" : 4000,
+	"learning_rate" : 0.1,
+	"units" : [ 15, 8 ],
+	"activation" : [ "tanh", "linear" ],
+	"optimizer" : "tf.train.adam",
+	"metrics" : 5,
+	"loss" : "meanSquaredError",
+	"active_descriptors" : [ "TotalEnergy", "RelativeSpecificLoudness0", "RelativeSpecificLoudness1", "RelativeSpecificLoudness2", "RelativeSpecificLoudness3", "RelativeSpecificLoudness4", "RelativeSpecificLoudness5", "RelativeSpecificLoudness6", "RelativeSpecificLoudness7", "RelativeSpecificLoudness8", "RelativeSpecificLoudness9", "RelativeSpecificLoudness10", "RelativeSpecificLoudness11", "RelativeSpecificLoudness12", "RelativeSpecificLoudness13", "RelativeSpecificLoudness14", "RelativeSpecificLoudness15", "RelativeSpecificLoudness16", "RelativeSpecificLoudness17", "RelativeSpecificLoudness18", "RelativeSpecificLoudness19", "RelativeSpecificLoudness20", "RelativeSpecificLoudness21", "RelativeSpecificLoudness22", "RelativeSpecificLoudness23" ]
+}

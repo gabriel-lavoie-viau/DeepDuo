@@ -1,0 +1,9 @@
+{
+	"active_descriptors" : [ "SignalZeroCrossingRate", "TotalEnergy", "SpectralCentroid", "SpectralSpread", "SpectralSkewness", "SpectralKurtosis", "SpectralRolloff" ],
+	"learning_rate" : 0.01,
+	"batch_size" : 2000,
+	"epoch" : 2500,
+	"units" : 6,
+	"activation" : "tanh",
+	"optimizer" : "tf.train.adam"
+}

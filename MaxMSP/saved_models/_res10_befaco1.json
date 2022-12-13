@@ -1,0 +1,11 @@
+{
+	"active_descriptors" : [ "TotalEnergy", "SpectralCentroid", "Sharpness", "Energy", "Frequency" ],
+	"batch_size" : 2500,
+	"epoch" : 1250,
+	"learning_rate" : 0.005,
+	"units" : 5,
+	"activation" : "tanh",
+	"optimizer" : "tf.train.adamax",
+	"metrics" : 5,
+	"loss" : "meanSquaredLogarithmicError"
+}

@@ -1,0 +1,11 @@
+{
+	"active_descriptors" : [ "Periodicity", "Energy", "Frequency", "AC1" ],
+	"batch_size" : 150,
+	"epoch" : 500,
+	"learning_rate" : 0.01,
+	"units" : 4,
+	"activation" : "tanh",
+	"optimizer" : "tf.train.adam",
+	"metrics" : 5,
+	"loss" : "meanSquaredError"
+}

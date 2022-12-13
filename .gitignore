@@ -1,2 +1,14 @@
 # ignore TouchDesigner backup folder
 TouchDesigner/Backup/*
+
+# ignore dataset
+MaxMSP/Data/*
+
+# ignore audio exports
+MaxMSP/Exports/*
+
+# ignore Node modules
+MaxMSP/node_module/*
+
+# ignore audiofiles
+MaxMSP/Sounds/*

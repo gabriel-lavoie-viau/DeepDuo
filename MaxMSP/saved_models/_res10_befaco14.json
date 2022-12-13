@@ -1,0 +1,10 @@
+{
+	"active_descriptors" : [ "TotalEnergy", "SpectralSpread", "SpectralSkewness", "SpectralKurtosis", "SpectralRolloff", "SpectralVariation", "SpectralDecrease" ],
+	"learning_rate" : 0.01,
+	"batch_size" : 1000,
+	"epoch" : 1500,
+	"units" : [ 7, 4 ],
+	"activation" : [ "tanh", "linear" ],
+	"optimizer" : "tf.train.adam",
+	"loss" : "meanSquaredError"
+}

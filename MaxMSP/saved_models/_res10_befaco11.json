@@ -1,0 +1,10 @@
+{
+	"active_descriptors" : [ "TotalEnergy", "Loudness", "PerceptualOddToEvenRatio", "Sharpness", "Spread", "SpectralSlope", "PerceptualSpectralDeviation", "PerceptualSpectralCentroid" ],
+	"learning_rate" : 0.01,
+	"batch_size" : 1000,
+	"epoch" : 3000,
+	"units" : 7,
+	"activation" : "tanh",
+	"optimizer" : "tf.train.adam",
+	"loss" : "meanSquaredError"
+}
