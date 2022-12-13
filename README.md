@@ -1,4 +1,6 @@
 # Deep Duo
+### _Curating audio descriptors as a form of sound composition_
+
 Code source d'une installation sonore qui met en scène des réseaux de neurones artificiels contrôlant des synthétiseurs modulaires.
 
 # Note de programme
