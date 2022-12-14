@@ -2,7 +2,7 @@
 TouchDesigner/Backup/*
 
 # ignore dataset
-MaxMSP/Data/*
+# MaxMSP/Data/*
 
 # ignore audio exports
 MaxMSP/Exports/*
